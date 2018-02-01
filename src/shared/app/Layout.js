@@ -25,7 +25,7 @@ export const Layout = (props) => {
       </header>
       <div>{props.children}</div>
       <footer>
-        <p>Proudly published with  <a href="https://prismic.io" target="_blank">prismic.io</a><br/><a href="https://prismic.io" target="_blank"><img src="/images/logo-prismic.svg" className="footer-logo"/></a></p>
+        <p>Published with  <a href="https://prismic.io" target="_blank">prismic.io</a><br/><a href="https://prismic.io" target="_blank"><img src="/images/logo-prismic.svg" className="footer-logo"/></a></p>
       </footer>
     </div>
   );
