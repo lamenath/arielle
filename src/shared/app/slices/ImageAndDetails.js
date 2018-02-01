@@ -9,12 +9,12 @@ export const ImageAndDetails = (props) => {
   
   return (
     <section className="details content-section">
-      <div className="details-left">
-        <img src={ details.primary.detail_image_1.url } />
-        <img src={ details.primary.detail_image_2.url } />
-      </div>
       <div className="details-right">
         <img src={ details.primary.featured_image.url } />
+      </div>
+      <div className="details-left">
+        <div className="detail-top"><img src={ details.primary.detail_image_1.url } /></div>
+        <div className="detail-bottom"><img src={ details.primary.detail_image_2.url } /></div>
       </div>
     </section>
   );

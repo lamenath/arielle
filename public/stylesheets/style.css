@@ -48,7 +48,8 @@
 .site-header,
 .site-header a {
   color: #484d52;
-  font-weight: 700;
+  font-weight: 200;
+  
 }
 .site-header nav a:hover {
   color: #72767B;
@@ -194,6 +195,31 @@
 .gallery-link {
   margin-top: -20px;
   text-transform: uppercase;
+}
+
+/* Details Section */
+.details {
+  position: relative;
+  overflow: auto;
+}
+
+.details-left {
+  width: 35%;
+  float: right;
+}
+
+.details-left .detail-top {
+  padding-bottom: 3.5rem;
+}
+
+.details-right {
+  width: 65%;
+  float: left;
+}
+
+.details-right img {
+  float: right;
+  padding-right: 4rem;
 }
 
 /* Footer */

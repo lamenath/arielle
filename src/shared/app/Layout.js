@@ -19,7 +19,6 @@ export const Layout = (props) => {
   return(
     <div className="app-container">
       <header className="site-header">
-        <Link to="/" className="logo">Arielle</Link>
         <nav>
           <ul>{menu}</ul>
         </nav>
