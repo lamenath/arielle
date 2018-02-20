@@ -49,7 +49,7 @@
 .site-header a {
   color: #484d52;
   font-weight: 200;
-  
+
 }
 .site-header nav a:hover {
   color: #72767B;
@@ -220,6 +220,30 @@
 .details-right img {
   float: right;
   padding-right: 4rem;
+}
+
+/* Squares Section */
+.squares {
+  position: relative;
+  overflow: auto;
+}
+
+.squares img {
+  padding: 2rem;
+}
+
+.squares-left {
+  width: 50%;
+  float: right;
+}
+
+.squares-right {
+  width: 50%;
+  float: left;
+}
+
+.squares-right img {
+  float: right;
 }
 
 /* Footer */

@@ -8,6 +8,7 @@ import Quote from './slices/Quote';
 import ImageGallery from './slices/ImageGallery';
 import ImageHighlight from './slices/ImageHighlight';
 import ImageAndDetails from './slices/ImageAndDetails';
+import Squares from './slices/Squares';
 import HomeBanner from './slices/HomeBanner';
 
 class HomePage extends React.Component {
@@ -52,6 +53,9 @@ class HomePage extends React.Component {
             break;
           case "details":
             return <ImageAndDetails key={index} slice={slice}/>;
+            break;
+          case "squares":
+            return <Squares key={index} slice={slice}/>;
             break;
           default:
             return <p>{slice.slice_type}</p>;
