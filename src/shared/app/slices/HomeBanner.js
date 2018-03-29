@@ -6,7 +6,7 @@ import PrismicConfig from '../../../prismic-configuration';
 export const HomeBanner = (props) => {
   
   var banner = props.document.data.homepage_banner[0];
-  var bannerStyle = { backgroundImage: 'linear-gradient(rgba(60, 157, 203, 0.8), rgba(147, 235, 255, 0.9)), url(' + banner.image.url + ')' };
+  var bannerStyle = { backgroundImage: 'linear-gradient(rgba(87, 150, 173, 0.8), rgba(87, 150, 173, 1)), url(' + banner.image.url + ')' };
   
   var link = PrismicLink.url(banner.button_link, PrismicConfig.linkResolver);
   var label = RichText.asText(banner.button_label);
